@@ -11,7 +11,14 @@
     transform: scale(1.02);
 }
 
-#divContainer {
+.breadcrumb{
+    border: 1px solid black;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#divContainer{
     border: 1px solid black;
     display: flex;
     margin-top: 10px;
@@ -34,4 +41,16 @@
 div[purpose=name]{
     margin-top: 50px;
     color: white;
+}
+
+.path{
+    cursor: pointer;
+    background-color: grey;
+    color: black;
+    padding: 5px;
+    border-right: 2px solid black;
+}
+
+.path:hover{
+    background-color: blanchedalmond;
 }

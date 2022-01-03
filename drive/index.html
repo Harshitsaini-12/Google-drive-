@@ -9,13 +9,19 @@
 </head>
 <body>
     <button id="btnAddFolder">Add Folder</button>
+    <div class="breadcrumb">
+       <a class="path" fig="-1">Root</a>
+    </div>
     <div id="divContainer"></div>
+    
 
     <template id="pageTemplates">
         <div class="folder">
             <span action="edit">edit</span>
             <span action="delete">delete</span>
+            <span action="view">View</span>
             <div purpose="name"></div>
+            <a class="path"></a>
         </div>
     </template>
 
